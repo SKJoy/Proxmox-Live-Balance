@@ -1,0 +1,12 @@
+# Sample CSV for proxmox‑memory‑set.sh
+# Columns:
+#   VMID                               - Proxmox VM/CT identifier (numeric)
+#   RESOURCE_MEMORY_CONSUMPTION_ALERT_THRESHOLD - Memory usage percentage (0‑100) at which the script will increase allocated memory.
+#   RESOURCE_STORAGE_CONSUMPTION_ALERT_THRESHOLD - Storage usage percentage (0‑100) at which the script will emit an alert.
+# Note: Thresholds are percentages of total allocated resources.
+# Lines starting with ‘#’ are treated as comments and ignored.
+# Empty lines are also ignored.
+
+101,80,75
+# Example second VM
+102,70,65
